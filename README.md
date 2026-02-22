@@ -14,7 +14,7 @@ strategy.
 
  - Code Generation:
    - C/C++: It can be used to compute derivatives of functions/models (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/DirectSourceGeneration#c-language) and generate libraries (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/LibGeneration)).
-   - [Latex](http://www.latex-project.org/): Latex sources can be used to create PDF files for documentation purposes (see [wiki](https://github.com/joaoleal/CppADCodeGen/wiki/DirectSourceGeneration#latex)).
+   - [Latex](http://www.latex-project.org/): Latex sources can be used to create PDF files for documentation purposes (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/DirectSourceGeneration#latex)).
    - html+[MathML](http://www.w3.org/Math/): tml+MathML can be used to display your algorithm in a web browser (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/DirectSourceGeneration#htmlmathmljavascript)).
    - [dot](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29) source-code: dot files can be used to create images with a graph of your model
      (see [graphviz](http://graphviz.org/)).
