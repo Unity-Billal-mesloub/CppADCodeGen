@@ -13,9 +13,9 @@ strategy.
 ## Key Features ##
 
  - Code Generation:
-   - C/C++: It can be used to compute derivatives of functions/models (see [wiki](https://github.com/joaoleal/CppADCodeGen/wiki/DirectSourceGeneration#c-language)) and generate libraries (see [wiki](https://github.com/joaoleal/CppADCodeGen/wiki/LibGeneration)).
+   - C/C++: It can be used to compute derivatives of functions/models (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/DirectSourceGeneration#c-language) and generate libraries (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/LibGeneration)).
    - [Latex](http://www.latex-project.org/): Latex sources can be used to create PDF files for documentation purposes (see [wiki](https://github.com/joaoleal/CppADCodeGen/wiki/DirectSourceGeneration#latex)).
-   - html+[MathML](http://www.w3.org/Math/): tml+MathML can be used to display your algorithm in a web browser (see [wiki](https://github.com/joaoleal/CppADCodeGen/wiki/DirectSourceGeneration#htmlmathmljavascript)).
+   - html+[MathML](http://www.w3.org/Math/): tml+MathML can be used to display your algorithm in a web browser (see [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki/DirectSourceGeneration#htmlmathmljavascript)).
    - [dot](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29) source-code: dot files can be used to create images with a graph of your model
      (see [graphviz](http://graphviz.org/)).
  - Support for Multiple Types: Allows the creation of CppAD models using double or float floating-point types.
@@ -39,11 +39,11 @@ See epl-v10.txt and gpl3.txt for a copy of the licenses.
 CppADCodeGen is a C++14 header only library, therefore there aren't many dependencies:
 
  - Required:
-   - [**CppAD**](https://github.com/coin-or/CppAD) (2024),
+   - [**CppAD**](https://github.com/Unity-Billal-mesloub/CppAD) (2024),
    - A **C++14** compiler (such as GCC and Clang),
  - Optional:
    - Clang/LLVM (only required for JIT compilation; supported versions <= v10.0), and
-   - [Eigen 3](https://gitlab.com/libeigen/eigen) (required when DAE differentiation index reduction is used).
+   - [Eigen 3](https://gitlab.com/Unity-Billal-mesloub/eigen) (required when DAE differentiation index reduction is used).
 
 Runtime compilation and dynamic linking:
  - Linux 
@@ -56,7 +56,7 @@ It might be very easy to support other OSes, but it is not implemented yet.
 
 Get the sources from GitHub:
 ```sh
-git clone https://github.com/joaoleal/CppADCodeGen.git CppADCodeGen
+git clone https://github.com/Unity-Billal-mesloub/CppADCodeGen.git CppADCodeGen
 ```
 Create a new folder to build the project:
 ```sh
@@ -87,7 +87,7 @@ It will create a debian package outside the project's folder.
 
 ## Using CppADCodeGen ##
 
-See the [wiki](https://github.com/joaoleal/CppADCodeGen/wiki).
+See the [wiki](https://github.com/Unity-Billal-mesloub/CppADCodeGen/wiki).
 
 The folder example includes some simple use cases.
 
@@ -95,14 +95,14 @@ The folder example includes some simple use cases.
 
 Get the sources from GitHub:
 ```sh
-git clone https://github.com/joaoleal/CppADCodeGen.git CppADCodeGen
+git clone https://github.com/Unity-Billal-mesloub/CppADCodeGen.git CppADCodeGen
 ```
 Create a new folder for the tests:
 ```sh
 cd make-build-debug
 cmake ../CppADCodeGen
 ```
-Testing requires [google-test](https://github.com/google/googletest) (version 1.14.0) which will be downloaded from GitHub.
+Testing requires [google-test](https://github.com/Unity-Billal-mesloub/googletest) (version 1.14.0) which will be downloaded from GitHub.
 
 Then compile the tests:
 ```sh
